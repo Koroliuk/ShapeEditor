@@ -1,0 +1,19 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "y".(îï¾¾ÿÿÿÿÿ
+t
+java:S1104"RMake myView a static final constant or non-public and provide accessors if needed.(’ˆ“ûÿÿÿÿ8ˆõ´ïâ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì–§¡
+c
+java:S1871"HThis case's code block is the same as the block for the case on line 28.(¨é×öıÿÿÿÿ
+c
+java:S1871 "HThis case's code block is the same as the block for the case on line 28.(£ê„€ıÿÿÿÿ
+A
+java:S1481"&Remove this unused "y" local variable.(îï¾¾ÿÿÿÿÿ
+<	java:S131""Add a default case to this switch.(ãÁğ™øÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "x".(›Öò¤
+<
+java:S1481"&Remove this unused "x" local variable.(›Öò¤
+
+java:S1104"]Make myEditorSingleton a static final constant or non-public and provide accessors if needed.(ÌÇ®Ÿøÿÿÿÿ8»«³ïâ.

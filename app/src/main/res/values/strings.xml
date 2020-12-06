@@ -1,0 +1,28 @@
+<resources>
+    <!-- Використані стрічки у програмі -->
+    <string name="app_name">Lab5</string>
+    <string name="info">Довідка</string>
+    <string name="objects">Об\'єкти</string>
+    <string name="point">Крапка</string>
+    <string name="line">Лінія</string>
+    <string name="rectangle">Прямокутник</string>
+    <string name="ellipse">Еліпс</string>
+    <string name="circle_ended_line">Лінія з кружечками на кінцях</string>
+    <string name="cube">Куб</string>
+    <string name="tableName">Таблиця</string>
+    <string name="info_dialog_title">Довідка</string>
+    <string name="info_dialog_message">
+        Цей додаток є реалізацією лабораторної роботи №5 з ООП
+    </string>
+    <string name="info_dialog_button">Закрити</string>
+    <string name="file">Файл</string>
+    <string name="erase">Стерти</string>
+    <string name="table_title">Таблиця фігур</string>
+    <string name="save_as_file">Зберегти</string>
+    <string name="load_file">Завантажити</string>
+    <string name="headline2">Обреріть файл</string>
+    <string name="info_dialog_message1">Доступних файлів немає</string>
+    <string name="info_dialog_title1">Обрання файлу</string>
+    <string name="action_positive">Обрати</string>
+    <string name="exit">Вихід</string>
+</resources>

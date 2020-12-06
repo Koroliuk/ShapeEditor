@@ -1,0 +1,5 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïà§Ùùÿÿÿÿ
+s
+java:S1104
+"VMake pointPaint a static final constant or non-public and provide accessors if needed.(Ÿ½¢¼8àÚâ.

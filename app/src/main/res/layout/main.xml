@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Розмітка головного екрану активності -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF139318"
+    android:orientation="vertical"
+    tools:context="lab5.modules.MainActivity" >
+    <LinearLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="UselessLeaf,UselessParent">
+    </LinearLayout>
+
+    <lab5.modules.shape_editor.MyView
+        android:id="@+id/shape_editing"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B1ABAB"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:padding="8sp"
+                android:text="@string/table_title"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textAppearance="@style/Widget.MaterialComponents.TextView"
+                android:textDirection="locale"
+                android:textIsSelectable="false"
+                android:textSize="18sp"
+                android:textStyle="normal">
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/buttonUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_up_icon">
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/buttonDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow_down_icon">
+            </ImageButton>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
