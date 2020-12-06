@@ -1,6 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ןא§Ùשÿÿÿÿ
-p
-java:S1104"UMake rectPaint a static final constant or non-public and provide accessors if needed.(ןוטאשÿÿÿÿ
-p
-java:S1104"UMake linePaint a static final constant or non-public and provide accessors if needed.(ַ§•תÿÿÿÿ

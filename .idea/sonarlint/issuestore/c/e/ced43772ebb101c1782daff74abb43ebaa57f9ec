@@ -1,15 +1,0 @@
-
-h
-java:S1104"RMake startY a static final constant or non-public and provide accessors if needed.(¥Å­
-k
-java:S1104"PMake type a static final constant or non-public and provide accessors if needed.(±§¦şÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïà§Ùùÿÿÿÿ
-h
-java:S1104
-"RMake startX a static final constant or non-public and provide accessors if needed.(µ—ù
-f
-java:S1104"PMake endY a static final constant or non-public and provide accessors if needed.(Š³Àé
-f
-java:S1104"PMake endX a static final constant or non-public and provide accessors if needed.(´ÓÒ‹
-h
-java:S1104"RMake canvas a static final constant or non-public and provide accessors if needed.(ñƒ‘ƒ
