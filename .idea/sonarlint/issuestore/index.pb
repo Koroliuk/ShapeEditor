@@ -47,3 +47,8 @@ r
 Bapp/src/main/java/lab5/modules/shape_editor/MyEditorSingleton.java,2/a/2a9feb16cf4021389c8b9842feb296e3d6f039eb
 g
 7app/src/main/java/lab5/modules/shape_editor/MyView.java,c/a/cabcbeaece7e96308b4121289a4c2d32d3461311
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity implements CallBack {
                             .setPositiveButton(R.string.action_positive, (dialogInterface, i) -> {
                                 try {
                                     MyView myEditorView = mMyEditorSingleton.getMyView();
-                                    myEditorView.eraseAll(null);
+                                    myEditorView.eraseAll(this);
                                     loadFile(selected[0]);
                                     myEditorView.invalidate();
                                 } catch (FileNotFoundException e) {
@@ -635,6 +635,7 @@ public class MainActivity extends AppCompatActivity implements CallBack {
         shape.endX = ex;
         shape.endY = ey;
         myEditorView.showedShapes.add(shape);
+        this.addCallBack(shape);
     }
 
 
